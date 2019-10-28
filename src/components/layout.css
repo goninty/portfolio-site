@@ -1,5 +1,6 @@
 html {
   font-family: sans-serif;
+  background: #303030;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -8,14 +9,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+main {
+  font-family: sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+header, footer {
+  font-family: sans-serif;
+  display: block;
+  overflow: auto;
+  color: white;
+  background: #606060
+}
+
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
-header,
-main,
 menu,
 nav,
 section,
